@@ -1,24 +1,49 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1 /DTD/xhtml1 - transitional.dtd">
+<!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Praktikum 2</title>
+    <title>Form</title>
   </head>
   <body>
-    Bidang Minat:
-    <ol>
-      <li>Sistem Informasi
-        <ul>
-          <li>Data Warehousing </li>
-          <li>Enterprise Architecture </li>
-        </ul>
-      </li>
-      <li>Multimedia
-        <ul>
-          <li>Komputer Grafik </li>
-          <li>Machinema </li>
-        </ul>
-      </li>
-    </ol>
+    <form action="form.html" method="post" enctype="multipart/form-data">
+      <h1>Form HTML</h1>
+      <label for="nama">Name :
+        <input type="text" name="nama" value="" required>
+      </label>
+      <p></p>
+      <label for="jk">Gender :
+        <input type="radio" name="jk" value="Pria"> Pria
+        <input type="radio" name="jk" value="Perempuan"> Perempuan
+      </label>
+      <p></p>
+      <label for="alamat">Address :
+        <input type="text" name="alamat" value="" required>
+      </label>
+      <p></p>
+      <label for="negara">Country :
+        <select class="" name="negara">
+          <option value="Indonesia">Indonesia</option>
+          <option value="Malaysia">Malaysia</option>
+          <option value="Filipina">Filipina</option>
+          <option value="Vietnam">Vietnam</option>
+        </select>
+      </label>
+      <p></p>
+      <label for="email">Email :
+        <input type="email" name="email" value="" required>
+      </label>
+      <p></p>
+      <label for="foto">Photo :
+        <input type="file" name="foto" value="" required>
+      </label>
+      <p></p>
+      <label for="komen">Comment :
+        <textarea name="komen" rows="8" cols="50" required></textarea>
+        <input type="submit" name="kirim" value="Submit">
+        <input type="reset" name="hapus" value="Reset">
+      </label>
+      <p>
+      </p>
+    </form>
   </body>
 </html>
