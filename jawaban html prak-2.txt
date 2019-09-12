@@ -1,0 +1,9 @@
+1. Lakukanlah perubahan pada kode HTML sesuai keinginan anda,
+Pernakah terjadi error ketika adakesalahan kode?
+Jawab : Tidak ada peringatan bahwa terjadi error. Yang terjadi hanyalah tidak menampilkan apa-apa.
+2. Cobalah ubah nilai meta refresh <meta HTTP-EQUIV="REFRESH"
+content="5; url=http://google.co.id"> apa yang terjadi?, maka jelaskan
+apa diantara kegunaan meta dokumen?
+Jawab : Meta dokumen diatas berfungsi untuk melakukan refresh setiap beberapa detik (seperti melakukan ping). Semakin ringan url yang di tuju, maka semakin cepat refresh dilakukan. Begitu juga sebaliknya. 
+3. Jelaskan fungsi tag HTML pada Table: thead, tbody, tr, th serta td!
+Jawab : thead berfungsi untuk head table (seperti nama, alamat, nim, dll). tbody berfungsi untuk mengisi data yang sudah disebutkan pada thead (seperti jefri, perum pemda, 14117107). tr berfungsi untuk mengisi row (baris). td berfungsi untuk mengisi coulumn (kolom) pada body. th berfungsi untuk mengisi coulumn (kolom) pada head.
