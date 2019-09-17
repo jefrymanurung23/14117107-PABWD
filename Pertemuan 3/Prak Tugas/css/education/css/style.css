@@ -1,0 +1,204 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Century Gothic;
+}
+
+body{
+  background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(../resource/background-edit.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+ul{
+  list-style-type: none;
+  float: right;
+  margin-top: 25px;
+}
+
+ul li{
+  display: inline-block;
+}
+
+ul li a{
+  text-decoration: none;
+  color: grey;
+  padding: 5px 20px;
+  border: 1px solid transparent;
+  transition: 0.6s ease;
+}
+
+ul li a:hover{
+  background-color: white;
+  color: black;
+}
+
+ul li.active a{
+  background-color: white;
+  color: black;
+}
+
+.main{
+  max-width: 1300px;
+  /* margin: auto; */
+}
+
+.title{
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@font-face {
+  font-family: "Neoteric";
+  src: url(../resource/NEOTERICc_Regular.ttf);
+}
+
+@font-face {
+  font-family: "Above";
+  src: url(../resource/ABOVE.ttf);
+}
+
+@font-face {
+  font-family: "Pasajero";
+  src: url(../resource/Pasajero.otf);
+}
+
+.title h1{
+  font-family: Neoteric;
+  color: white;
+  font-size: 75px;
+}
+
+.school{
+  position: absolute;
+  text-align: center;
+  top: 205%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.school a{
+  text-decoration: none;
+}
+
+.school h2.link_itera:hover{
+  text-decoration: underline;
+}
+
+.school h2.link_sma:hover{
+  text-decoration: underline;
+}
+
+.school h2.link_smp:hover{
+  text-decoration: underline;
+}
+
+.school h2.link_sd1:hover{
+  text-decoration: underline;
+}
+
+.school h2.link_sd2:hover{
+  text-decoration: underline;
+}
+
+.school h2{
+  font-family: Above;
+  color: lightgreen;
+}
+
+.school h3{
+  font-family: Neoteric;
+  color: grey;
+  font-size: 130%;
+}
+
+.school img.itera{
+  width: 200px;
+}
+
+.school h3.tahun_kuliah{
+  font-family: Pasajero;
+  font-size: 100%;
+}
+
+.school h3.tahun_kuliah .tahun{
+  font-family: Neoteric;
+  display: inline-block;
+  font-size: 113%;
+}
+
+.school img.sma{
+  width: 200px;
+}
+
+.school .nama_sma{
+  font-family: Pasajero;
+  display: inline-block;
+}
+
+.school h3.tahun_sma{
+  font-family: Pasajero;
+  font-size: 100%;
+}
+
+.school img.smp{
+  width: 200px;
+}
+
+.school .nama_smp{
+  font-family: Pasajero;
+  display: inline-block;
+}
+
+.school h3.tahun_smp{
+  font-family: Pasajero;
+  font-size: 100%;
+}
+
+.school img.sd1{
+  width: 200px;
+}
+
+.school .nama_sd1{
+  font-family: Pasajero;
+  display: inline-block;
+}
+
+.school .grade_sd1{
+  font-family: Pasajero;
+}
+
+.school .grade_sd1 .grade{
+  font-family: Neoteric;
+  display: inline-block;
+}
+
+.school h3.tahun_sd1{
+  font-family: Pasajero;
+  font-size: 100%;
+}
+
+.school img.sd2{
+  width: 200px;
+}
+.school .nama_sd2{
+  font-family: Pasajero;
+  display: inline-block;
+
+}
+.school .grade_sd2{
+  font-family: Pasajero;
+}
+
+.school .grade_sd2 .grade{
+  font-family: Neoteric;
+  display: inline-block;
+}
+
+.school h3.tahun_sd2{
+  font-family: Pasajero;
+  font-size: 100%;
+}
