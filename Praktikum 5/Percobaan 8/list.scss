@@ -1,4 +1,8 @@
-$colors: red yellow blue teal orange;
+$colors: "red",
+"yellow",
+"blue",
+"teal",
+"orange";
 
 @each $color in $colors {
     .bg-#{$color} {
