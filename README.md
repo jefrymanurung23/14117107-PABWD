@@ -1,1 +1,1 @@
-Praktikum 1 : 3 September 2019 <br> Praktikum 2 : 10 September 2019 <br> Praktikum 3 : 17 Spetember 2019
+Nama : Jefri Manurung <br> NIM : 14117107 <br> Kelas Awal : Pemrograman Web RD
