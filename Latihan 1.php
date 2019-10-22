@@ -18,13 +18,13 @@
 
         $a = 5;
         $b = 10;
-        echo "Sebelum di SWAP\n";
-        echo "a = $a\n";
-        echo "b = $b\n\n";
+        echo nlbr("Sebelum di SWAP\n");
+        echo nlbr("a = $a\n");
+        echo nlbr("b = $b\n\n");
         swap($a, $b);
-        echo "Sesudah di SWAP\n";
-        echo "a = $a\n";
-        echo "b = $b\n\n";
+        echo nlbr("Sesudah di SWAP\n");
+        echo nlbr("a = $a\n");
+        echo nlbr("b = $b\n\n");
     ?>
 </body>
 
