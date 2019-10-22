@@ -22,7 +22,7 @@
             </div>
             <div class="form-group">
                 <label>Warna</label>
-                <select multiple class="form-control" id="exampleFormControlSelect2">
+                <select class="form-control" name="warna">
                     <option value="merah" disabled selected hidden>-- Pilih --</option>
                     <option value="merah">Merah</option>
                     <option value="kuning">Kuning</option>
