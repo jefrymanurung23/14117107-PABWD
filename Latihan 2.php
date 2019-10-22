@@ -14,6 +14,7 @@
 </head>
 
 <body>
+    <br><br>
     <div class="container">
         <form method="GET" action="Latihan 2 - Hasil.php">
             <div class="form-group">
@@ -23,12 +24,12 @@
             <div class="form-group">
                 <label>Warna</label>
                 <select class="form-control" name="warna">
-                    <option value="merah" disabled selected hidden>-- Pilih --</option>
-                    <option value="merah">Merah</option>
-                    <option value="kuning">Kuning</option>
-                    <option value="hijau">Hijau</option>
-                    <option value="putih">Putih</option>
-                    <option value="hitam">Hitam</option>
+                    <option value="Merah">-- Pilih --</option>
+                    <option value="Merah">Merah</option>
+                    <option value="Kuning">Kuning</option>
+                    <option value="Hijau">Hijau</option>
+                    <option value="Putih">Putih</option>
+                    <option value="Hitam">Hitam</option>
                 </select>
             </div>
             <button type="submit" class="btn btn-primary" name="show">Submit</button>
