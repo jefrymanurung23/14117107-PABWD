@@ -10,7 +10,7 @@
         $conn = mysqli_connect ("localhost","root","", "praktikum8_jefri") or die ("koneksi gagal");
         $hasil = mysqli_query($conn, "SELECT * FROM liga");
         
-        while ($row = mysql_fetch_row($hasil)) {
+        while ($row = mysqli_fetch_row($hasil)) {
             echo "Liga " .$row[1];
             echo " mempunyai " .$row[2];
             echo " wakil di liga champion <br>";
