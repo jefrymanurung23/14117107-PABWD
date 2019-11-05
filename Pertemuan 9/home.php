@@ -10,7 +10,7 @@
     $user = new User();
 
     //fetch user data
-    $sql = "SELECT * FROM users WHERE id = '".$_SESSION['user']."'";
+    $sql = "SELECT * FROM user WHERE id = '".$_SESSION['user']."'";
     $row = $user->details($sql);
 ?>
 
