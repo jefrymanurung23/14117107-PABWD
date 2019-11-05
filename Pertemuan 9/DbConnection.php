@@ -3,7 +3,7 @@
         private $host = 'localhost';
         private $username = 'root';
         private $password = '';
-        private $database = 'test';
+        private $database = 'prak9_jefri';
         protected $connection;
         
         public function __construct(){
